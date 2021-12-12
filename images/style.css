@@ -1,0 +1,357 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+@media (max-width: 375px) {
+  body {
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    justify-items: center;
+    margin: 0;
+    padding: 0;
+    background: hsl(226, 43%, 10%);
+  }
+
+  .container {
+    margin-top: 50px;
+    margin-bottom: 35px;
+    height: 150px;
+    border-radius: 20px;
+    margin-left: 8%;
+    width: 300px;
+    background-color: hsl(235, 46%, 20%);
+  }
+
+  .profile {
+    /* background-image: url("/time-tracking-dashboard-main/images/icon-exercise.svg"); */
+    color: white;
+    margin-left: -12px;
+    width: 300px;
+    height: 100px;
+    border-radius: 20px;
+    background-color: hsl(246, 80%, 60%);
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    justify-items: center;
+    font-size: small;
+  }
+
+  .image {
+    width: 35%;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    justify-items: center;
+  }
+
+  .image img {
+    width: 60px;
+  }
+
+  .name-container {
+    font-family: "Rubik", sans-serif;
+    font-weight: 300;
+    width: 60%;
+    margin-right: 12px;
+  }
+
+  .time-class {
+    color: rgb(255, 255, 255);
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    justify-items: center;
+  }
+
+  .time {
+    padding: 10px 25px;
+  }
+
+  .work {
+    width: 300px;
+    height: 130px;
+    border-radius: 20px;
+    margin-left: 8%;
+    background: hsl(15, 100%, 70%);
+    background-image: url("/time-tracking-dashboard-main/images/icon-work.svg");
+    background-repeat: repeat-y;
+    background-position: 90% 0%;
+  }
+
+  .play {
+    width: 300px;
+    height: 130px;
+    border-radius: 20px;
+    margin-left: 8%;
+    background: hsl(195, 74%, 62%);
+    background-image: url("/time-tracking-dashboard-main/images/icon-play.svg");
+    background-repeat: repeat-y;
+    background-position: 90% 0%;
+  }
+
+  .study {
+    width: 300px;
+    height: 130px;
+    border-radius: 20px;
+    margin-left: 8%;
+    background: hsl(348, 100%, 68%);
+    background-image: url("/time-tracking-dashboard-main/images/icon-study.svg");
+    background-repeat: repeat-y;
+    background-position: 90% 0%;
+  }
+
+  .exercise {
+    width: 300px;
+    height: 130px;
+    border-radius: 20px;
+    margin-left: 8%;
+    background: hsl(145, 58%, 55%);
+    background-image: url("/time-tracking-dashboard-main/images/icon-exercise.svg");
+    background-repeat: repeat-y;
+    background-position: 90% 0%;
+  }
+
+  .social {
+    width: 300px;
+    height: 130px;
+    border-radius: 20px;
+    margin-left: 8%;
+    background: hsl(264, 64%, 52%);
+    background-image: url("/time-tracking-dashboard-main/images/icon-social.svg");
+    background-repeat: repeat-y;
+    background-position: 90% 0%;
+  }
+
+  .selfcare {
+    width: 300px;
+    height: 130px;
+    border-radius: 20px;
+    margin-left: 8%;
+    background: hsl(43, 84%, 65%);
+    background-image: url("/time-tracking-dashboard-main/images/icon-self-care.svg");
+    background-repeat: repeat-y;
+    background-position: 90% 0%;
+  }
+
+  .inner {
+    position: relative;
+    top: 30px;
+    width: 300px;
+    color: white;
+    height: 100px;
+    background-color: hsl(235, 46%, 20%);
+    margin-top: 20px;
+    margin-left: 0px;
+    border-radius: 20px;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    justify-items: center;
+  }
+
+  .main-section {
+    font-size: 30px;
+  }
+
+  .prev-section {
+    font-size: 12px;
+    opacity: 75%;
+    color: rgba(255, 255, 255, 0.925);
+  }
+}
+
+@media (min-width: 1024px) {
+  body {
+    margin: 0;
+    padding: 0;
+    background: hsl(226, 43%, 10%);
+  }
+
+  .all {
+    display: flex;
+    margin-left: 8%;
+    margin-right: 8%;
+  }
+
+  .container {
+    margin-top: 15%;
+    margin-bottom: 15%;
+    height: 50vh;
+    border-radius: 20px;
+    width: 280px;
+    background-color: hsl(235, 46%, 20%);
+  }
+
+  .profile {
+    /* background-image: url("/time-tracking-dashboard-main/images/icon-exercise.svg"); */
+    color: white;
+    /* padding-left: 15%;
+    padding-top: 15%; */
+    width: 280px;
+    height: 70%;
+    border-radius: 20px;
+    background-color: hsl(246, 80%, 60%);
+  }
+
+  .image {
+    padding-top: 15%;
+    padding-left: 15%;
+    width: 35%;
+  }
+
+  .image img {
+    width: 80%;
+    border: 4px solid white;
+    border-radius: 50%;
+  }
+
+  .name-container {
+    padding-top: 15%;
+    padding-left: 15%;
+    font-family: "Rubik", sans-serif;
+    /* font-weight: 300; */
+    margin-right: 12px;
+  }
+
+  .name {
+    font-size: 40px;
+  }
+
+  .time-class {
+    margin-top: 15px;
+    color: rgb(255, 255, 255);
+    display: block;
+  }
+
+  .time {
+    padding: 10px 25px;
+  }
+
+  .sect1 {
+    display: block;
+    margin-top: 13%;
+    margin-bottom: 15%;
+    margin-left: 2%;
+  }
+
+  .work {
+    width: 280px;
+    height: 23vh;
+    border-radius: 20px;
+    /* margin-left: 8%; */
+    background: hsl(15, 100%, 70%);
+    background-image: url("/time-tracking-dashboard-main/images/icon-work.svg");
+    background-repeat: repeat-y;
+    background-position: 90% 0%;
+  }
+
+  .play {
+    width: 280px;
+    height: 23vh;
+    border-radius: 20px;
+    /* margin-left: 8%; */
+    background: hsl(195, 74%, 62%);
+    background-image: url("/time-tracking-dashboard-main/images/icon-play.svg");
+    background-repeat: repeat-y;
+    background-position: 90% 0%;
+  }
+
+  .sect2 {
+    display: block;
+    margin-top: 13%;
+    margin-bottom: 15%;
+    margin-left: 2%;
+  }
+
+  .study {
+    width: 280px;
+    height: 23vh;
+    border-radius: 20px;
+    /* margin-left: 8%; */
+    background: hsl(348, 100%, 68%);
+    background-image: url("/time-tracking-dashboard-main/images/icon-study.svg");
+    background-repeat: repeat-y;
+    background-position: 90% 0%;
+  }
+
+  .exercise {
+    width: 280px;
+    height: 23vh;
+    border-radius: 20px;
+    /* margin-left: 8%; */
+    background: hsl(145, 58%, 55%);
+    background-image: url("/time-tracking-dashboard-main/images/icon-exercise.svg");
+    background-repeat: repeat-y;
+    background-position: 90% 0%;
+  }
+
+  .sect3 {
+    display: block;
+    margin-top: 13%;
+    margin-bottom: 15%;
+    margin-left: 2%;
+  }
+
+  .social {
+    width: 280px;
+    height: 23vh;
+    border-radius: 20px;
+    /* margin-left: 8%; */
+    background: hsl(264, 64%, 52%);
+    background-image: url("/time-tracking-dashboard-main/images/icon-social.svg");
+    background-repeat: repeat-y;
+    background-position: 90% 0%;
+  }
+
+  .selfcare {
+    width: 280px;
+    height: 23vh;
+    border-radius: 20px;
+    /* margin-left: 8%; */
+    background: hsl(43, 84%, 65%);
+    background-image: url("/time-tracking-dashboard-main/images/icon-self-care.svg");
+    background-repeat: repeat-y;
+    background-position: 90% 0%;
+  }
+
+  .inner {
+    position: relative;
+    display: block;
+    top: 4vh;
+    width: 280px;
+    color: white;
+    /* font-family: "Rubik", sans-serif; */
+    height: 20vh;
+    background-color: hsl(235, 46%, 20%);
+    margin-top: 19px;
+    margin-left: 0px;
+    border-radius: 20px;
+  }
+
+  .head {
+    margin-top: 10%;
+    margin-left: 10%;
+    padding-top: 10%;
+    font-size: 20px;
+  }
+
+  .main-section {
+    margin-top: 8%;
+    margin-left: 10%;
+    font-size: 65px;
+  }
+
+  .prev-section {
+    margin-top: 4%;
+    margin-left: 10%;
+    font-size: 20px;
+    opacity: 75%;
+    color: rgba(255, 255, 255, 0.925);
+  }
+}
